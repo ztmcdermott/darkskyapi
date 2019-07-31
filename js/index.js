@@ -76,7 +76,7 @@ function weatherReport(latitude, longitude) {
 	// variables config for coordinates, url and api key
 	// latitude and longitude are accepted arguments and passed
 	// once a user has submitted the form.
-	var apiKey       = 'place api key here',
+	var apiKey       = '158f8793ce01233cd32abce719cc1a54',
 			url          = 'https://api.darksky.net/forecast/',
 			lati         = latitude,
 			longi        = longitude,
@@ -265,7 +265,7 @@ $('body').on('click', '#back', function() {
 
 function insertGoogleScript() {
 	var google_api = document.createElement('script'),
-			api_key    = 'place api key here';
+			api_key    = '158f8793ce01233cd32abce719cc1a54';
 
 	// Inject the script for Google's API and reference the initGoogleAPI
 	// function as a callback.
